@@ -1,3 +1,5 @@
+import BlogsDynamicRouting from "../day-7/blogsDynamicRouting";
+
 export default function HelloCard({ name, age }) {
   return (
     <div className="p-4 bg-blue-600 text-white rounded-lg shadow-md">
@@ -6,6 +8,9 @@ export default function HelloCard({ name, age }) {
       <p className="mt-1 text-sm">
         Welcome to learning Next.js with JavaScript!
       </p>
+
+      {/* dynamic routing */}
+      <BlogsDynamicRouting />
     </div>
   );
 }
