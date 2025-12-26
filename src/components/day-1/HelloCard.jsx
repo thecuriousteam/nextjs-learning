@@ -1,4 +1,5 @@
 import BlogsDynamicRouting from "../day-7/blogsDynamicRouting";
+import PodsDynamicRoutingEntery from "../day-8/podsDynamicRouting";
 
 export default function HelloCard({ name, age }) {
   return (
@@ -11,6 +12,8 @@ export default function HelloCard({ name, age }) {
 
       {/* dynamic routing */}
       <BlogsDynamicRouting />
+
+      <PodsDynamicRoutingEntery />
     </div>
   );
 }
